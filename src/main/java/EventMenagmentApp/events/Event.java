@@ -10,7 +10,7 @@ public class Event {
     private String name;
     private List<Organiser> organisers;
     private List<Helper> helpers;
-    private Organiser chiefOrganiser;
+    public Organiser chiefOrganiser;
 
     public Event(String name) {
         this.name = name;
