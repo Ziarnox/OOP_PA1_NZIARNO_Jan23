@@ -1,4 +1,7 @@
 package EventMenagmentApp.Employees;
 
-public class Organiser {
+class Organiser extends Employee {
+    public Organiser(String name) {
+        super(name);
+    }
 }
